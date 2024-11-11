@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Turing Machine Simulator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Turing Machine Simulator</h1>
+        
+        <!-- Input field for binary string -->
+        <input type="text" id="binaryInput" placeholder="Enter binary string (1s and 0s)" />
+        <button onclick="runTuringMachine()">Run Turing Machine</button>
+        
+        <!-- Result display area -->
+        <div id="resultArea" class="output-area"></div>
+        
+        <!-- Debugging display area -->
+        <div id="debugArea" class="debug-area"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
